@@ -14,12 +14,13 @@ Sou formado em Psicologia pela FMU (2026), concluí Análise de Dados e Power BI
 
 | Projeto | Do que se trata | Testes & Stack |
 |---|---|---|
+| [Painel E-Commerce & Macroeconomia Brasil](https://github.com/Balchuna/painel-ecommerce-macro-br) · [painel ao vivo](https://balchuna.github.io/painel-ecommerce-macro-br/) | Cruza **99.441 pedidos reais da Olist** (96.478 entregues) com APIs oficiais do **Banco Central** (SGS 433 IPCA, 432 Selic, 1 PTAX) e **IBGE** (população por UF) em esquema estrela (11 tabelas), projeto Power BI (PBIP de 4 páginas, 68 medidas DAX) e painel web bilíngue (PT/EN). GMV real deflacionado de **R$ 15,96 mi** (+135,9% a/a), SLA de **93,23%** no prazo e queda de avaliação de **4,29★ para 2,27★** nos atrasos, reconciliados 100% entre 6 gabaritos SQL, pandas puro, Power BI Desktop (TOM/ADOMD) e Playwright. | **79 testes** (pytest + TOM/Playwright + CI) · Power BI, DAX, SQL, Python, APIs BCB/IBGE |
 | [Radar de Vagas de Dados e TI](https://github.com/Balchuna/radar-vagas-dados) · [painel ao vivo](https://balchuna.github.io/radar-vagas-dados/) | Coleta semanal automática via GitHub Actions nas APIs públicas (Greenhouse, Lever, Ashby; 31 empresas) com UPSERT idempotente em SQLite e análises em SQL. Coleta agendada de 16/11/2026: **1.478 vagas ativas** e **91 de dados** (Python 78,0%, SQL 76,9%). | **101 testes** (pytest + CI) · Python, SQL, SQLite, Chart.js |
 | [Painel de Certificações SST](https://github.com/Balchuna/painel-certificacoes-sst) | Painel Power BI de 4 páginas (modelo estrela, 7 relações, 27 medidas DAX) para controle de exames e treinamentos de SST em obra fictícia de 150 funcionários. Todos os números são validados contra gabarito em SQL (SQLite) e pandas, abrindo Excel e Power BI Desktop nos testes. | **297 testes** (pytest + CI) · Power BI, DAX, Power Query, SQL, Python |
 | [Estresse no Trabalho por Setor](https://github.com/Balchuna/estresse-trabalho-jss) | Pipeline analítico da Job Stress Scale (17 itens, Alves et al., 2004) com descarte de PII na leitura, anonimização k≥5 por setor, quadrantes de Karasek, alfa de Cronbach (0,80–0,87), Mann-Whitney e relatório HTML. | **54 testes** (pytest + CI) · Python, pandas, SciPy, LGPD |
 | [Eva Flights](https://github.com/Balchuna/eva-flights) | Buscador multiprovedor de passagens aéreas que integra 4 fontes com normalizadores testados, trava prévia de quota mensal (100 chamadas), timeout de 12s, degradação graciosa e modo demo sem chaves. | **118 testes** (`node:test` + CI) · Node.js, Express, React, Vite |
 
-Os dados dos projetos de SST e de estresse são sintéticos, gerados com semente fixa. Nenhum dado pessoal real foi publicado.
+O painel de e-commerce utiliza dados públicos reais da Olist (CC BY-NC-SA 4.0) e APIs oficiais do BCB/IBGE; os projetos de SST e de estresse usam dados sintéticos com semente fixa (nenhum dado pessoal real foi publicado).
 
 ### Outras entregas reais & protótipos
 
@@ -29,7 +30,7 @@ Os dados dos projetos de SST e de estresse são sintéticos, gerados com semente
 
 ### Como trabalho nos projetos
 
-Os números dos READMEs saem de comandos e consultas verificáveis. Ao todo são **871 testes automatizados** somando os repositórios públicos (570) e o sistema privado (301), todos os projetos públicos rodam CI no GitHub Actions, e cada repositório traz `docs/COMO-FUNCIONA.md` e `docs/DECISOES.md`.
+Os números dos READMEs saem de comandos e consultas verificáveis. Ao todo são **950 testes automatizados** somando os repositórios públicos (649) e o sistema privado (301), todos os projetos públicos rodam CI no GitHub Actions, e cada repositório traz `docs/COMO-FUNCIONA.md` e `docs/DECISOES.md`.
 
 ### Ferramentas
 
