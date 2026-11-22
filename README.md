@@ -4,7 +4,7 @@ Analista de Dados e Desenvolvedor de Automação em São Paulo. Trabalho com SQL
 
 **Portfólio unificado (PT/EN):** [balchuna.github.io](https://balchuna.github.io/) · **LinkedIn:** [linkedin.com/in/rafael-balchuna](https://www.linkedin.com/in/rafael-balchuna)
 
-Sou formado em Psicologia pela FMU (2026), concluí formação em Análise de Dados e Power BI (Microsoft Learn / Fundação Bradesco) e curso Administrador de Banco de Dados no IFRS. Desde março de 2026 desenvolvo e mantenho o sistema de automação documental e banco de dados de Segurança e Saúde do Trabalho de uma construtora (Python/PySide6, SQLite/PostgreSQL, bot Telegram em Node.js e 301 testes automatizados).
+Sou formado em Psicologia pela FMU (2026), concluí Análise de Dados e Power BI (Microsoft Learn / Fundação Bradesco) e os cursos da Anthropic sobre Claude Code, e curso Administrador de Banco de Dados no IFRS. Desde março de 2026 desenvolvo e mantenho o sistema de automação documental e banco de dados de Segurança e Saúde do Trabalho de uma construtora (Python/PySide6, SQLite/PostgreSQL, bot Telegram em Node.js e 301 testes automatizados).
 
 *Junior Data Analyst & Python Automation Developer based in São Paulo, Brazil (UTC-3). Full bilingual portfolio at [balchuna.github.io](https://balchuna.github.io/) — every public repository below includes an English summary in its README.*
 
@@ -35,6 +35,6 @@ Os números dos READMEs saem de comandos e consultas verificáveis. Ao todo são
 
 - **Dados & BI:** SQL (SQLite, PostgreSQL/Supabase, SQLAlchemy, Alembic), Power BI (Power Query, DAX, PBIP), Excel avançado, Python (pandas, SciPy, PyMuPDF, Chart.js).
 - **Engenharia, APIs & Web:** Python, Node.js, Express, TypeScript, React, Next.js, Tailwind CSS, C#, APIs REST, Telegram Bot API, servidores MCP, pytest, `node:test`, Git, GitHub Actions.
-- **IA Aplicada:** desenvolvimento assistido por agentes (Claude Code, Codex, OpenCode) com revisão rigorosa por testes automatizados, subagentes e skills.
+- **IA Aplicada:** desenvolvimento assistido por agentes (Claude Code — cursos da Anthropic concluídos, Codex, OpenCode) com revisão rigorosa por testes automatizados, subagentes e skills.
 
 Português (nativo) · Inglês (fluente — 90% / percentil 97).
